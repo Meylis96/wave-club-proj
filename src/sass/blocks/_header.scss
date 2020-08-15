@@ -1,0 +1,185 @@
+.header{
+    padding-top: 13px;
+    background: url(../img/surfer.jpg) center (center/cover) no-repeat;
+    height: 856px;
+    &__nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 186px;
+    }
+    &__lists{
+        display: flex;
+        margin-bottom: 0;
+        position: relative;
+    }
+    &__list{
+        list-style: none;
+        &:nth-child(2):hover ~ hr{
+            width: 58px;
+            margin-left: 23%;
+        }
+        &:nth-child(3):hover ~ hr{
+            width: 86px;
+            margin-left: 38%;
+        }
+        &:nth-child(4):hover ~ hr{
+            width: 126px;
+            margin-left: 58%;
+        }
+        &:nth-child(5):hover ~ hr{
+            width: 98px;
+            margin-left: 84%;
+        }
+    }
+    &__link{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-left: 35px;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__underline{
+        border: 1px solid #FFFFFF;
+        width: 68px;
+        margin: 0;
+        background: white;
+        transition: .3s ease-in-out;
+        position: absolute;
+        margin-top: 10.2%;
+        margin-left: 6%;
+        border-radius: 10px;
+    }
+    &__end{
+        margin-top: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    &__info{
+        margin-top: 115px;
+        hr{
+            border: 3px solid #00BCBE;
+            width: 130px;
+            margin-top: 15px;
+        }
+    }
+    &__title{
+        position: relative;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+    &__subtitle{
+        margin-top: 50px;
+        width: 707px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    &__request{
+        width: 100%;
+        height: 318px;
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 323px;
+    }
+    &__lesson{
+        width: 562px;
+        height: 288px;
+        background: #00BCBE;
+        border-radius: 10px;
+        padding-top: 50px;
+        &_title{
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &_subtitle{
+            width: 359px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &_btn{
+            width: 170px;
+            height: 42px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            font-weight: 600;
+            color: #00BCBE;
+            text-transform: uppercase;
+            margin: 0 auto;
+            display: block;
+            border: none;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    &__membership{
+        width: 562px;
+        height: 288px;
+        background: rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        padding-top: 50px;
+        &_title{
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &_subtitle{
+            width: 359px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &_btn{
+            width: 170px;
+            height: 42px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            font-weight: 600;
+            color: #404040;
+            text-transform: uppercase;
+            margin: 0 auto;
+            display: block;
+            border: none;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
