@@ -1,4 +1,4 @@
-import WOW from 'wow.js';
+import animation from './animation';
 
 document.addEventListener('DOMContentLoaded', () => {
     "use strict";
@@ -8,5 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
             preloader.classList.add('done');
         }
     }, 1000);
-    new WOW().init();
+
+    animation();
 });
